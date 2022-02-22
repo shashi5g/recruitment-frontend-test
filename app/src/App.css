@@ -1,0 +1,112 @@
+
+*{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+.App {
+  width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 100%;
+  position: relative;
+ 
+}
+
+li ,ul{
+  list-style:none;
+  padding: 0;
+}
+button ,input{
+ color :#000;
+ background: #fff;
+ border: 1px solid #000;
+ border-radius: 5px;
+ padding: 10px 5px;
+ font-size: 18px;
+}
+button {
+  padding: 10px 5px;
+  width: 120px;
+  text-align: center;
+  cursor:pointer;
+}
+
+input {
+
+  padding: 5px;
+  flex-basis: 60%;
+}
+
+label{
+ flex-basis: 40%;
+ text-transform: capitalize;
+
+}
+input[type='radio']{
+   width: auto;;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  width: 100%;
+  margin-bottom: 10px;
+}
+.row span {
+  flex-basis: 40%;
+}
+.center{
+  justify-content: center;
+}
+
+ul li {
+  text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+ul li div {
+  padding:4px ;
+  flex-basis: 16%;
+}
+ul li button {
+  margin: 0 10px;
+}
+
+.row .row {
+  flex-basis: 30%;
+
+}
+.row .row  label {
+  flex-basis: 100%;
+}
+.edit-form {
+  position: absolute;
+    width: calc(100% - 20px);
+    top: 10px;
+    background: #fff;
+}
+h3{
+  text-align: center;
+}
+
+@media screen and (min-width:560px) {
+  ul li div {
+
+    flex-basis: 12%;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

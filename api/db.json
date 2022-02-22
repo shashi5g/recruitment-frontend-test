@@ -1,0 +1,25 @@
+{
+  "proposals": [
+    {
+      "id": 1,
+      "client": "shashi",
+      "monthly_cost": "23",
+      "oneoff_cost": "2213",
+      "status": "live"
+    },
+    {
+      "id": 2,
+      "client": "jhon",
+      "monthly_cost": "444",
+      "oneoff_cost": "234",
+      "status": "live"
+    },
+    {
+      "id": 4,
+      "client": "ravi",
+      "monthly_cost": "400",
+      "oneoff_cost": "4444",
+      "status": "won"
+    }
+  ]
+}
