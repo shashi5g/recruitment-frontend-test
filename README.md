@@ -45,7 +45,9 @@ It would be nice to see unit or feature testing but this is not a hard requireme
 Once you're happy with your test, please add in any notes below explaining your approach and implementation.
 
 **INSERT YOUR NOTES HERE**
-
+ Useing React hooks
+ using axios fetch data ,update and delete 
+I have not wriiten unit test and also there is obne bug   form is not getting clear after update and creating the  data
 ## Submitting Your Test
 
 To submit your test, please:
